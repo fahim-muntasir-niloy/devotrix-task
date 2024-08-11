@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.3
+lxml==5.3.0
+pdfkit==1.0.0
+Requests==2.32.3
+selenium==4.23.1

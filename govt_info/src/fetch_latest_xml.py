@@ -4,9 +4,15 @@ from selenium import webdriver
 
 
 
-
 def fetch_latest_xml(url):
-    browser = webdriver.Edge()
+    """fetches the last/latest xml url from a website
+    
+    Keyword arguments:
+    url -- link of the website to be parsed
+    Return: last link from the parsed xml links 
+    """
+    
+    browser = webdriver.Edge()  # using edge browser for default windows machine
     
     browser.get(url)
     response_html = browser.page_source
