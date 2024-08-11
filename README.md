@@ -10,4 +10,8 @@ Naive BeautifulSoup html perser struggled to extract `a tags` from nested divs. 
 
 PDFKit converted the extracted XML to a PDF file, with the help of [[wkhtmltopdf](https://wkhtmltopdf.org/)]. It was setup on the machine locally.
 
-- how to run this project
+## Running the project
+- Clone the project. 
+- Create a virtual env with the requirements. You may check this [StackOverflow](https://stackoverflow.com/questions/41427500/creating-a-virtualenv-with-preinstalled-packages-as-in-requirements-txt) to create virutal environment. 
+- Install `wkhtmltopdf` and add to path.
+- Run the `main.py` file.
